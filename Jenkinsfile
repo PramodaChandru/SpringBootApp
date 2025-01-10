@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'SpringBootApp'
+        DOCKER_IMAGE = 'springbootapp'
         DOCKER_TAG = 'latest'
         DOCKER_REGISTRY = 'docker.io'
         DOCKER_USERNAME = 'pramodcgowda'
